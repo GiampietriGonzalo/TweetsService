@@ -1,4 +1,8 @@
-package ayds.tweetsservice;
+package ayds.tweetsearcher.data.repository;
+
+import ayds.tweetsearcher.data.repository.external.servicesbroker.ExternalServiceModule;
+import ayds.tweetsearcher.data.repository.external.servicesbroker.TwitterService;
+import ayds.tweetsearcher.domain.TweetsRepository;
 
 public class DataModule {
 
