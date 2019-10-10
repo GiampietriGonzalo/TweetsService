@@ -1,9 +1,6 @@
-package ayds.tweetsearcher.data.repository;
+package ayds.tweetsservice;
 
 import com.twitter.sdk.android.core.models.Tweet;
-import ayds.tweetsearcher.data.repository.external.servicesbroker.TwitterService;
-import ayds.tweetsearcher.domain.TweetResult;
-import ayds.tweetsearcher.domain.TweetsRepository;
 import java.util.LinkedList;
 import java.util.List;
 

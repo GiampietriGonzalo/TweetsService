@@ -1,3 +1,5 @@
+package ayds.tweetsservice;
+
 public class TweetResult {
     private String description;
     private String username;

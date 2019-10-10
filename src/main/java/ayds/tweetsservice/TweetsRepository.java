@@ -1,4 +1,4 @@
-package ayds.tweetsearcher.domain;
+package ayds.tweetsservice;
 
 import java.util.List;
 

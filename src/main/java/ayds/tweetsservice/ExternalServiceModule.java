@@ -1,4 +1,4 @@
-package ayds.tweetsearcher.data.repository.external.servicesbroker;
+package ayds.tweetsservice;
 
 public class ExternalServiceModule {
 
