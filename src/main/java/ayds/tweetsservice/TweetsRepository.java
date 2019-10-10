@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface TweetsRepository {
 
-    void findTweets(String query, SearchListener listener, SearchErrorListener errorListener);
+    void findTweets(String query);
 
 interface SearchListener {
     void onFound(List<TweetResult> tweets);

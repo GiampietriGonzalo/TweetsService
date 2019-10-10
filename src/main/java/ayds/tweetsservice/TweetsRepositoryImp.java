@@ -13,7 +13,7 @@ class TweetsRepositoryImp implements TweetsRepository {
     }
 
     @Override
-    public void findTweets(String query, SearchListener listener, SearchErrorListener errorListener) {
+    public void findTweets(String query) {
         List<Tweet> tweets = externalService.findTweets(query);
         List<TweetResult> tweetsResult = new LinkedList<>();
         if (tweets == null || tweets.isEmpty()) {
