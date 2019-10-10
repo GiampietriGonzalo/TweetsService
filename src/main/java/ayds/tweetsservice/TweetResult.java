@@ -1,5 +1,3 @@
-package ayds.tweetsearcher.domain;
-
 public class TweetResult {
     private String description;
     private String username;
