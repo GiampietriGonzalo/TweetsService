@@ -1,7 +1,8 @@
 package ayds.tweetsservice;
 
-import com.twitter.sdk.android.core.Twitter;
 import android.content.Context;
+
+import com.twitter.sdk.android.core.Twitter;
 
 public class ExternalServiceModule {
 
