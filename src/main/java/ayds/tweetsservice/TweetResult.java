@@ -1,17 +1,15 @@
 package ayds.tweetsservice;
 
 public class TweetResult {
-    private String description;
+    private String tweetText;
     private String username;
-    private String accountName;
     private String date;
     private int likesCount;
     private int retweetsCount;
 
-    public TweetResult(String username, String accountName, String description, int likesCount, int retweetsCount, String date) {
+    public TweetResult(String username, String tweetText, int likesCount, int retweetsCount, String date) {
         this.username = username;
-        this.accountName = accountName;
-        this.description = description;
+        this.tweetText = tweetText;
         this.likesCount = likesCount;
         this.retweetsCount = retweetsCount;
         this.date = date;
@@ -21,12 +19,8 @@ public class TweetResult {
         return username;
     }
 
-    public String getAccountName() {
-        return accountName;
-    }
-
-    public String getDescription() {
-        return description;
+    public String getTweetText() {
+        return tweetText;
     }
 
     public int getRetweetsCount() {
