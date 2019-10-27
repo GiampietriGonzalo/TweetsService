@@ -1,8 +1,8 @@
-package ayds.tweetsservice;
+package  ayds.tweetsservice;
 
 import android.content.Context;
-
 import com.twitter.sdk.android.core.Twitter;
+import com.twitter.sdk.android.core.TwitterCore;
 
 public class ExternalServiceModule {
 
@@ -19,7 +19,7 @@ public class ExternalServiceModule {
 
     public TwitterService getTwitterlService(Context context) {
         Twitter.initialize(context);
-        return new TwitterServiceImp();
+        return new TwitterServiceImp(TwitterCore.getInstance().getApiClient().getStatusesService());
     }
 }
 
