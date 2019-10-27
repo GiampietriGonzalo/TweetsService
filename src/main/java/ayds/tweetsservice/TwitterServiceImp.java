@@ -30,7 +30,7 @@ class TwitterServiceImp implements TwitterService {
           TweetResult newTweet;
 
           for (Tweet tweet: tweets) {
-              newTweet = new TweetResult(tweet.user.screenName, tweet.user.name, tweet.text, tweet.favoriteCount, tweet.retweetCount, tweet.createdAt);
+              newTweet = new TweetResult(tweet.user.name, tweet.text, tweet.favoriteCount, tweet.retweetCount, tweet.createdAt);
               tweetsResult.add(newTweet);
           }
 
